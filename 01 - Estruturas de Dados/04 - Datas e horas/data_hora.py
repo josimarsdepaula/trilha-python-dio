@@ -1,1 +1,19 @@
-from datetime import datetime, timedelta d = datetime(2023, 1, 1) new_date = d + timedelta(days=10)
+from datetime import date, datetime, time
+
+# Cria uma data específica
+data = date(2023, 7, 10)
+print(data)
+
+# Obtém a data atual
+data_hoje = date.today()
+print(data_hoje)
+
+# Cria um objeto datetime com data e hora específicas
+data_hora = datetime(2023, 7, 23)
+print(data_hora)
+
+data_hora2 = datetime.today()
+print(data_hora2)
+
+hora = time(2, 12 , 54)
+print(hora)
