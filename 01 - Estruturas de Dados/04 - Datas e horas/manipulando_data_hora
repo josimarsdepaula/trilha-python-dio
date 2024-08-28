@@ -1,0 +1,7 @@
+import datetime
+
+data_hora = datetime.datetime(2023, 7, 23)
+print(data_hora)
+
+data_hora += datetime.timedelta(weeks=1)
+print(data_hora)
