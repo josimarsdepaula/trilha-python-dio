@@ -1,5 +1,4 @@
-from datetime import date
-from datetime import datetime
+from datetime import date, datetime, time
 
 # Cria uma data específica
 data = date(2023, 7, 10)
@@ -15,3 +14,6 @@ print(data_hora)
 
 data_hora2 = datetime.today()
 print(data_hora2)
+
+hora = time(2, 12 , 54)
+print(hora)
